@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+joblib = "*"
+mlflow = "*"
+streamlit = "*"
+boto3 = "*"
+scikit-learn = "*"
+typer = "*"
+numpy = "*"
+pandas = "*"
+s3fs = "==0.3.0"
+fsspec = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.8"
